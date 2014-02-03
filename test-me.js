@@ -1,5 +1,3 @@
-	fetchGalleryPage: function(page){		
-		this.apiFilter.start = (this.apiFilter.limit * page);
-		this.applyFolderControllerFilter();
-		this.options.folderController.refetchCurrentList();
-	},
+function sayHi(name){
+	alert('hi '+ name);
+}
